@@ -3,7 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>formulaire de contact</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/main.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="formulaire">
+      <h1>Formulaire de contact</h1>
+      <form id="contactForm" action="">
+        <input id="firstname" type="text" placeholder="prenom" />
+        <input id="lastname" type="text" placeholder="nom" />
+        <input id="email" type="text" placeholder="email" />
+        <input id="title" type="text" placeholder="titre du message" />
+        <textarea id="message" cols="30" rows="10"></textarea>
+        <button>Envoyer le message</button>
+      </form>
+    </div>
+  </body>
 </html>
