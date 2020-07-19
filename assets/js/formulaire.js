@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       firstname: document.querySelector("#firstname").value,
       lastname: document.querySelector("#lastname").value,
       email: document.querySelector("#email").value,
-      subject: document.querySelector("#subject").value,
+      title: document.querySelector("#title").value,
       message: document.querySelector("#message").value,
     };
     console.log(data);

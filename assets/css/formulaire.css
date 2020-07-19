@@ -1,0 +1,9 @@
+@import "reset.css";
+html {
+  font-size: 62.5%; /* soit 10px */
+}
+
+body {
+  background-color: rgb(245, 1, 245);
+  font-family: "Mulish", sans-serif;
+}
