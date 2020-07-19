@@ -1,0 +1,63 @@
+@import "reset.css";
+html {
+  font-size: 62.5%; /* soit 10px */
+}
+
+body {
+  background-color: rgb(245, 1, 245);
+  font-family: "Mulish", sans-serif;
+}
+div {
+  background-color: #e5e5e5;
+  height: 600px;
+  width: 500px;
+  margin: auto;
+  display: block;
+  justify-content: center;
+}
+.formulaire {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* flex: 1; */
+  padding: 40px;
+  justify-content: center;
+  border-radius: 15px;
+  border: solid black 3px;
+}
+h1 {
+  display: block;
+  font-size: 4rem;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+button {
+  font-family: "Mulish", sans-serif;
+  width: 90%;
+  font-size: 3rem;
+  background-color: rebeccapurple;
+  color: whitesmoke;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+button:hover {
+  background-color: purple;
+}
+input,
+textarea {
+  border: solid 1px #c4c4c4;
+  width: 90%;
+  border-radius: 5px;
+  justify-content: center;
+  flex: 1;
+  margin: auto;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  padding: 15px;
+  outline: none;
+}
+input {
+  height: 40px;
+}
